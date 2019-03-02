@@ -1,0 +1,66 @@
+#fellows {
+ 	text-align: center;
+ }
+ #fellows .badge{
+ 	font-size: 25px;
+ 	background-color: grey;
+ }
+
+
+#link{
+text-align: center;
+}
+
+/*Partie Reward*/
+/*texte récompense*/
+.filtre-blanc .reward {
+    position:absolute;
+    font-family: sans-serif;
+    font-size: 20px;
+	color: transparent;
+    background-color: transparent;
+    transition: color 1s, background-color 1s;
+    transition: opacity 1s;
+    margin-left:20%;
+    margin-top:20%;
+}
+
+/*écriture orange*/
+.filtre-blanc span {
+	color: transparent;
+    background-color: transparent;
+    transition: color 1s, background-color 1s;
+    transition: opacity 1s;
+}
+/*images*/
+.filtre-blanc {
+		opacity: 1;
+	}
+
+/*passage souris pour le texte de récompense*/
+.filtre-blanc:hover .reward {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    /*top: 10%;
+    left:20%;*/
+}
+
+.filtre-blanc:hover span {
+	color: orange;
+}
+
+.filtre-blanc:hover {
+		opacity: 0.4;
+		transition: opacity 1s;
+}
+
+footer a{
+	color:black;
+	background-color: white;
+	width: auto
+}
+
+hr {
+    color:black;
+}
