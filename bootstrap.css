@@ -1,28 +1,154 @@
+/* polices */
+
+@font-face{
+    font-family: "party-business";
+    src: url("police/party-business/partybusiness.ttf");
+}
+
+@font-face{
+    font-family: "aniron";
+    src: url("police/aniron/anirm___.ttf");
+}
+
+@font-face {
+    font-family: "tengwar_annatar";
+    src: url("police/tengwar_annatar/tngan.ttf");
+}
+
+/* image de fond*/
+
+body {
+    background-image: url("images/bg_light.png");
+}
+
+
+/* titres et paragraphes*/
+
+h1{
+    font-family: "party-business";
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 25px;
+    color: black;
+    font-family: "aniron";
+}
+
+h3 {
+font-size: 20px;
+}
+
+h3,
+p,
+#fellows {
+   font-family: "aniron"; 
+
+}
+.soustitre {
+    font-size: 18px;
+}
+
+p{
+    font-size: 17px;
+}
+
+.symbole {
+    font-family: "tengwar_annatar";
+    color: orange;
+    font-size: 26px;
+}
+
+/*navbar*/
+
+#navbar {
+    background-color: tomato;
+}
+ a  {
+    font-family: "aniron";
+    font-size: 18px;
+    text-align: right;
+}
+
+.underline {
+    text-decoration: underline;  
+}
+
+
+/* carroussel*/
+
+div p {
+    font-size: 38px;
+}
+
+div,
+h1,
+p {
+    top: 38%;
+}
+
+
+/*Fellows*/
+
 #fellows {
  	text-align: center;
  }
- #fellows .badge{
- 	font-size: 25px;
- 	background-color: grey;
- }
 
+ #fellows .badge{
+ 	font-size: 18px;
+ }
+ #fellows .badge:hover {
+    color: orange;
+ }
 
 #link{
 text-align: center;
 }
 
-/*Partie Reward*/
+.card-body h5{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-family: "party-business";
+    font-size: 60px;
+    color: white;
+}
+
+.card-body p{
+    font-size: 30px;
+    font-family: "party-business";
+}
+
+.card-body {
+    background-color: black;
+}
+
+#fellowscards .card {
+    border-color: black;
+    border-width: 4px;
+}
+
+
+/************Partie Reward**************/
+
+/* badges pills */
+
+
+
+
 /*texte récompense*/
 .filtre-blanc .reward {
     position:absolute;
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family: "aniron";
+    font-size: 30px;
 	color: transparent;
     background-color: transparent;
     transition: color 1s, background-color 1s;
     transition: opacity 1s;
-    margin-left:20%;
-    margin-top:20%;
+    left:10px;
+    top:10px;
+    right: 10px;
+    text-align: center;
 }
 
 /*écriture orange*/
@@ -32,6 +158,13 @@ text-align: center;
     transition: color 1s, background-color 1s;
     transition: opacity 1s;
 }
+.filtre-blanc .barre{
+    text-decoration: line-through;
+    left: 50px;
+    color: orange;
+}
+
+
 /*images*/
 .filtre-blanc {
 		opacity: 1;
@@ -42,8 +175,6 @@ text-align: center;
     background-color: white;
     border-radius: 5px;
     color: black;
-    /*top: 10%;
-    left:20%;*/
 }
 
 .filtre-blanc:hover span {
@@ -53,6 +184,68 @@ text-align: center;
 .filtre-blanc:hover {
 		opacity: 0.4;
 		transition: opacity 1s;
+}
+
+/* I have captured */
+
+#wantreward button {
+    font-size: 28px;
+    font-family: "aniron";
+    color: orange;
+    position: absolute;
+    left: 30%;
+}
+
+
+h3,
+p{
+    color: white;
+}
+ #wantreward p {
+    font-family: "party-business";
+    font-size: 20px;
+ }
+ 
+#wantreward {
+    background-color: black;
+ }
+
+/******Hunters ******/
+
+ #hunters p {
+    color: black;
+    font-size: 22px
+ }
+
+/*** about the ring **/
+
+ #thering,
+ #ring{
+    background-color: black;
+ }
+
+ #thering {
+    position:
+ }
+
+#thering h3 {
+    color: white;
+}
+#Gollum p {
+    font-size: 18px;
+}
+
+/****join the army ****/
+
+
+
+/*footer*/
+#contact {
+    background-color: black;
+}
+
+#contact h3{
+    color: white;
 }
 
 footer a{
